@@ -1,0 +1,49 @@
+:root {
+  --color-primary: #3a8f99;
+  --color-primary-deep: #2f7680;
+  --color-bg: #bfdfd2;
+  --color-soft: #7bc0c0;
+  --color-warn: #dbcb92;
+  --color-btn: #ecb66c;
+  --color-btn-hover: #ea9e58;
+  --color-accent: #ed8d5a;
+}
+
+body {
+  margin: 0;
+  background: #f5f8fb;
+  color: #2f3b4a;
+  font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.el-card {
+  border-radius: 14px;
+  border: 1px solid #e8eef4;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.el-dialog {
+  border-radius: 14px;
+}
+
+.el-dialog__header {
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.el-dialog__footer {
+  border-top: 1px solid #f1f5f9;
+}
+
+.el-button--primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.el-button--primary:hover {
+  background-color: var(--color-primary-deep);
+  border-color: var(--color-primary-deep);
+}

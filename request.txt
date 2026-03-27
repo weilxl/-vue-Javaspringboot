@@ -1,0 +1,45 @@
+# 个人效率管理系统 - 环境与依赖版本清单
+
+## JDK
+- JDK 8（1.8）
+
+## 后端
+- Maven 3.6+
+- Spring Boot 2.7.18
+- MyBatis Plus 3.5.5
+- MySQL 8.x / 5.7（驱动：mysql-connector-j）
+- JWT：jjwt-api / jjwt-impl / jwt-jackson 0.11.5
+- Swagger：springfox-boot-starter 3.0.0
+- Lombok（可选）
+
+## 后台管理前端（web-admin）
+- Node.js 16+ 推荐 18 LTS
+- pnpm 8.x
+- Vue 2.6.14
+- Vue Router 3.6.5
+- Vuex 3.6.2
+- Element UI 2.9.2
+- Axios 1.6.8
+- ECharts 5.5.1
+- @vue/cli-service 5.0.8
+- eslint 8.57.1
+- eslint-plugin-vue 9.28.0
+- vue-template-compiler 2.6.14
+
+## 移动端（mobile-app）
+- Node.js 16+ 推荐 18 LTS
+- pnpm 8.x
+- Vue 2.6.14
+- Vue Router 3.6.5
+- Vuex 3.6.2
+- Element UI 2.9.2
+- Axios 1.6.8
+- @vue/cli-service 5.0.8
+- eslint 8.57.1
+- eslint-plugin-vue 9.28.0
+- vue-template-compiler 2.6.14
+
+## 数据库
+- MySQL 账号：root
+- MySQL 密码：123456
+- 数据库名：efficiency_system
